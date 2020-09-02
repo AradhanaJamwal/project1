@@ -1,0 +1,205 @@
+    1  adduser centos02
+    2  passwd centos02
+    3  visudo
+    4  init 6
+    5  yum update -y
+    6  kil pid:3248
+    7  kill pid:3248
+    8  kill3248
+    9  kill 3248
+   10  exit
+   11  ls
+   12  cd ..
+   13  ls
+   14  exit
+   15  ls
+   16  git clone https://github.com/gopal1409/metlifedevops.git
+   17  cd metlifedevops/
+   18  vi nginx.yaml 
+   19  ansible-playbook nginx.yaml 
+   20  ansible-playbook nginx.yaml
+   21  mkdir files
+   22  cd files/
+   23  ls
+   24  vi nginx.conf.centos.patch
+   25  ansible-playbook nginx.yaml
+   26  cd ..
+   27  ansible-playbook nginx.yaml
+   28  ls
+   29  mkdit templates
+   30  mkdir templates
+   31  cd templates/
+   32  vi index.html.j2
+   33  cd ..
+   34  ansible-playbook nginx.yaml
+   35  ls
+   36  cat files
+   37  cd files
+   38  ls
+   39  vi files
+   40  vi index.html.j2
+   41  ls
+   42  cd ..
+   43  cd templates/
+   44  ls
+   45  vi index.html.j2
+   46  cd ..
+   47  ansible-playbook nginx.yaml
+   48  cd files/
+   49  ls
+   50  cd ..
+   51  git clone https://github.com/gopal1409/metlifedevops.git
+   52  git pull
+   53  cd metlifedevops
+   54  ls
+   55  vi nginx-default.conf
+   56  ansible-playbook nginx.yaml
+   57  ls
+   58  cd files
+   59  ls
+   60  mkdir nginx-default.conf
+   61  cd ..
+   62  ansible-playbook nginx.yaml
+   63  cd files
+   64  ls
+   65  ls -l
+   66  rm nginx-default.conf/
+   67  rm -rf nginx-default.conf
+   68  vi nginx-default.conf
+   69  cd ..
+   70  ansible-playbook nginx-default.conf 
+   71  ls
+   72  cd files/
+   73  ls
+   74  cd ..
+   75  cd templates/
+   76  ls
+   77  cd ..
+   78  ansible-playbook nginx.yaml
+   79  cd ..
+   80  ls
+   81  cd metlifedevops
+   82  ls
+   83  cd hosts
+   84  vi hosts
+   85  gedit ansible.cfg
+   86  cd files
+   87  ls
+   88  cd ..
+   89  vi nginx.yaml
+   90  vi nginx.conf.centos.patch
+   91  ls
+   92  vi nginx-default.conf
+   93  cd templates
+   94  ls
+   95  vi index.html.j2
+   96  cd ..
+   97  ansible-playbook nginx.yaml
+   98  nginx -v
+   99  cd ..
+  100  nginx -v
+  101  cd metlifedevops
+  102  vi nginex.yaml
+  103  ansible-playbook nginx.yaml
+  104  vi nginex.yaml
+  105  ansible-playbook nginx.yaml
+  106  cd ..
+  107  nginx -v
+  108  ip -a
+  109  ip a
+  110  cd metlifedevops
+  111  vi hosts
+  112  ansible-playbook nginx.yaml
+  113  vi hosts
+  114  vi nginex.yaml
+  115  cd ..
+  116  nginx -v
+  117  cd metlifedevops
+  118  vi hosts
+  119  yum install git
+  120  git
+  121  git stauts
+  122  git status
+  123  ls -la
+  124  cd .git
+  125  ls -la
+  126  cd ..
+  127  git status
+  128  ls  -la
+  129  git add motd.yaml
+  130  git status
+  131  rm -rf .git
+  132  git status
+  133  git init
+  134  ls -la
+  135  git status
+  136  git add motd.yaml
+  137  git status
+  138  history
+  139  git status
+  140  git commit -m "firstcommit"
+  141  git config --global user.name "aradhana"
+  142  git config --global user.email" aradhana0263@gmail.com"
+  143  git commit -m "firstcommit"
+  144* git config --global user.name "AradhanaJamwal
+  145  git config --global user.email" aradhana0263@gmail.com"
+  146  git config --global user.email " aradhana0263@gmail.com"
+  147  git commit -m "firstcommit"
+  148  git log
+  149  git remote add origin https://github.com/AradhanaJamwal/project1.git
+  150  git push -u origin master
+  151  touch .gitignore
+  152  vi .gitignore
+  153  git status
+  154  git add .
+  155  git commit -m "secondcomit"
+  156  git status
+  157  git push -u origin master
+  158  git fetch
+  159  git branch feature
+  160  git branch
+  161  git checkout feature
+  162  git branch
+  163  vi motd.yaml
+  164  git status
+  165  git add .
+  166  git status
+  167  git commit -m "motdchanges"
+  168  git status
+  169  git push -u origin feature
+  170  git checkout master
+  171  git branch
+  172  git branch --merged
+  173  git merge feature
+  174  git push -u origin master
+  175  git branch -a
+  176  git branch -d feature
+  177  git branch -a
+  178  git push --delete feature
+  179  git push origin --delete feature
+  180  git branch -a
+  181  git branch "Testbranch"
+  182  git checkout Testbranch
+  183  git branch *
+  184  git branch
+  185  git push -u origin Testbranch
+  186  git branch
+  187  git branch -a
+  188  git push --delete Testbranch
+  189  git push origin --delete Testbranch
+  190  git branch -a
+  191  vi motd.yml
+  192  git diff motd.yml
+  193  git diff motd.yaml
+  194  git branch -a
+  195  git checkout master
+  196* 
+  197  vi motd.yaml
+  198  git diff motd.yaml
+  199  git checkout motd.yaml
+  200  git diff motd.yaml
+  201  vi motd.yaml
+  202  git diff motd.yaml
+  203  git diff master..TestBranch
+  204  git diff branch master..TestBranch
+  205  history > todayhistory.txt
